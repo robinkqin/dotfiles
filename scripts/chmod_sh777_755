@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find . -name "*.sh" -perm 777 -exec chmod 755 {} \;

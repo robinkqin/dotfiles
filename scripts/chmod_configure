@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find . -name configure -exec chmod 755 {} \;
