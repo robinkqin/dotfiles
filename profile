@@ -26,10 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH="$HOME/.cargo/bin:$PATH"
+#export PATH="$HOME/.cargo/bin:$PATH"
 
-export GO111MODULE=on
-export GO113MODULE=on
-export GOPROXY=https://goproxy.io
-
-export PATH="$HOME/dotfiles/scripts:$PATH"
+#export GO111MODULE=on
+#export GO113MODULE=on
+#export GOPROXY=https://goproxy.io
