@@ -12,15 +12,20 @@ sudo apt install -y make cmake automake autoconf build-essential gdb valgrind
 sudo apt install -y remmina remmina-common remmina-dev remmina-plugin-exec remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice remmina-plugin-vnc remmina-plugin-xdmcp
 sudo apt install -y flameshot cloc
 #sudo apt install -y libncurses5
-sudo apt install -y ripgrep fd-find global silversearcher-ag ack
 sudo apt install -y pylint3
 #sudo apt install -y pylint
+sudo apt install -y python3-pip
+sudo apt install -y ripgrep fd-find
+sudo apt install -y global silversearcher-ag ack
 sudo apt install -y cppcheck cppcheck-gui
 
 sudo apt install -y python3-pip
+#sudo apt install -y python-pip
+
 sudo apt install -y mpv ffmpeg
 sudo apt install -y audacity inkscape gimp
-#sudo apt install -y blender virtualbox shutter
+sudo apt install -y blender
+#sudo apt install -y virtualbox shutter
 sudo apt install -y samba samba-common smbclient
 
 sudo apt install -y libavutil-dev libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavresample-dev libavutil-dev libpostproc-dev libswresample-dev libswscale-dev nasm
