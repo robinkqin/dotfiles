@@ -11,7 +11,10 @@ sudo pacman -S ripgrep fzf bat fd exa the_silver_searcher cloc ctags global ack 
 sudo pacman -S gcc make cmake automake autoconf flex curl aria2 tree nasm
 sudo pacman -S gdb valgrind clang lldb
 sudo pacman -S dos2unix peek
+
 #sudo pacman -S qtcreator
+#sudo pacman -S qt5-examples qt5-doc qt5-translations
+
 #sudo pacman -S wireshark-qt
 #sudo gpasswd -a $USER wireshark
 #sudo pacman -S ttf-roboto noto-fonts ttf-dejavu
@@ -53,3 +56,7 @@ sudo pip install pygments
 yay -S wps-office wps-office-fonts ttf-wps-fonts
 
 #git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+sudo pacman -S libvirt
+sudo systemctl enable libvirtd
+sudo pacman -S qemu ebtables dnsmasq virt-manager
