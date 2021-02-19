@@ -47,10 +47,10 @@ This function should only modify configuration layer settings."
      multiple-cursors
      markdown
      org
-     shell
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+     ;; shell
+     (shell :variables
+            shell-default-height 50
+            shell-default-position 'bottom)
      spell-checking
      syntax-checking
      version-control
@@ -242,7 +242,7 @@ It should only modify the values of Spacemacs settings."
    ;; a non-negative integer (pixel size), or a floating-point (point size).
    ;; Point size is recommended, because it's device independent. (default 10.0)
    dotspacemacs-default-font '("JetBrains Mono"
-                               :size 11.0
+                               :size 12.0
                                :weight normal
                                :width normal)
 
@@ -287,7 +287,7 @@ It should only modify the values of Spacemacs settings."
 
    ;; If non-nil then the last auto saved layouts are resumed automatically upon
    ;; start. (default nil)
-   dotspacemacs-auto-resume-layouts nil
+   dotspacemacs-auto-resume-layouts t
 
    ;; If non-nil, auto-generate layout name when creating new layouts. Only has
    ;; effect when using the "jump to layout by number" commands. (default nil)
