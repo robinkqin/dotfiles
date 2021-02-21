@@ -538,7 +538,30 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
   (setq-default lsp-ui-doc-enable nil)
-  (setq-default lsp-headerline-breadcrumb-enable nil)
+  ;; (setq-default lsp-headerline-breadcrumb-enable nil)
+
+  ;; (spacemacs/lsp-bind-extensions-for-mode mode "c-c++"
+  ;;                                         "&" 'refs-address
+  ;;                                         "R" 'refs-read
+  ;;                                         "W" 'refs-write
+  ;;                                         "c" 'callers
+  ;;                                         "C" 'callees
+  ;;                                         "v" 'vars)
+
+  ;; (spacemacs/set-leader-keys-for-major-mode mode
+  ;;   "g&" 'c-c++/find-refs-address
+  ;;   "gR" 'c-c++/find-refs-read
+  ;;   "gW" 'c-c++/find-refs-write
+  ;;   "gc" 'c-c++/find-callers
+  ;;   "gC" 'c-c++/find-callees
+  ;;   "gv" 'c-c++/find-vars
+  ;;   "G&" 'c-c++/peek-refs-address
+  ;;   "GR" 'c-c++/peek-refs-read
+  ;;   "GW" 'c-c++/peek-refs-write
+  ;;   "Gc" 'c-c++/peek-callers
+  ;;   "GC" 'c-c++/peek-callees
+  ;;   "Gv" 'c-c++/peek-vars)
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
