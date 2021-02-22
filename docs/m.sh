@@ -60,3 +60,11 @@ yay -S wps-office wps-office-fonts ttf-wps-fonts
 sudo pacman -S libvirt
 sudo systemctl enable libvirtd
 sudo pacman -S qemu ebtables dnsmasq virt-manager
+
+sudo pacman -S neovim
+sudo pacman -S xdotool xclip
+sudo pacman -S xorg-xwininfo
+sudo pacman -S ccls
+sudo pacman -S gopls
+sudo pacman -S bash-language-server
+sudo pacman -S cloc
